@@ -1,10 +1,11 @@
 # Student Record System
 
+<!-- Optional: add a screenshot of your app here -->
 ![App Screenshot](screenshot.png)
 
 ## Description
-A simple web application built with Flask for managing student records.  
-This project demonstrates full-stack development basics, including form handling, template rendering, and CRUD operations.
+A simple Flask web application for managing student records.  
+This project demonstrates fundamental web development skills: routing, templates, forms, and data display.
 
 ---
 
@@ -18,25 +19,23 @@ This project demonstrates full-stack development basics, including form handling
 ---
 
 ## Features
-- Add student with name, admission number, and course  
-- View all students in a table  
-- Delete student records  
-- Simple and clean UI using HTML templates  
+- Add student information (name, admission, course)
+- View list of students
+- Delete student records
+- Minimal HTML interface
 
 ---
 
 ## Tech Stack
-- Python  
-- Flask  
-- SQLite (built-in with Python)  
-- HTML / CSS  
+- Python
+- Flask
+- SQLite (no separate setup needed)
 
 ---
 
 ## Setup & Installation
 
-1. Clone the repository:
-
+### 1. Clone the repo
 ```bash
 git clone https://github.com/Vaughncarl/student-record-system.git
 cd student-record-system
